@@ -1,0 +1,25 @@
+#### - NeuCard
+NeuCard is a component which is equivalent to Card component in other libraries.
+
+###### Props
+This component accepts 3 props:
+
+1. `children` - This represents children of Card. You do not need
+to pass this prop explicilty to ```NeuCard``` component. Instead just wrap
+child components in ```NeuCard``` opening and closing tags.
+2. `width` - width of the card (px or percentages)
+3. `height` - height of the card (px or percentages)
+
+```jsx
+import { NeuCard } from 'neumorphic-ui';
+
+class Example extends Component {
+  render () {
+    return (
+      <NeuCard width="350px" height="320px">
+      ...Child components
+      </NeuCard>
+    )
+  }
+}
+```

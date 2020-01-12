@@ -1,0 +1,29 @@
+#### - NeuInput
+NeuInput is a component which you can use as an input field.
+
+###### Props
+This component accepts 4 props:
+
+1. ```width``` - width of input field (in px or %)
+2. ```placeholder``` - placeholder value of input field
+3. ```value``` - value of input field
+4. ```onChange``` - function which you want to pass to interact with changes in input field
+
+```jsx
+import { NeuInput } from 'neumorphic-ui';
+
+class Example extends Component {
+   constructor(props){
+    super(props);
+    this.state = {
+      value: ""
+    }
+  }
+
+  render () {
+    return (
+      <NeuInput width="96%" onChange={e => this.setState({value:e.target.value})} placeholder="Neumorphic Input" value={this.state.value} />
+    )
+  }
+}
+```
