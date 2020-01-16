@@ -1,19 +1,13 @@
-# gatsby-starter-documentation
+# Neumorphic UI Docs
 
-A minimalist starter for
-[gatsby-theme-documentation](https://github.com/johno/gatsby-theme-documentation).
+> A library of components based on the concept of neumorphism
 
-![image](https://user-images.githubusercontent.com/1424573/61085901-ace8e980-a3ee-11e9-84d2-45acbb200fea.png)
+[![NPM](https://img.shields.io/npm/v/neumorphic-ui.svg)](https://www.npmjs.com/package/neumorphic-ui)
 
-## Installation
+## Install
 
-```sh
-gatsby new my-docs-site johno/gatsby-starter-documentation
-cd my-docs-site
+```bash
+npm install --save neumorphic-ui
 ```
 
-## Usage
 
-```sh
-yarn start
-```
